@@ -1,0 +1,20 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "time-sheet-week-command-set": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/timeSheetWeek/TimeSheetWeekCommandSet.js",
+          "manifest": "./src/extensions/timeSheetWeek/TimeSheetWeekCommandSet.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "vue": "./node_modules/vue/dist/vue.min.js"
+  },
+  "localizedResources": {
+    "TimeSheetWeekCommandSetStrings": "lib/extensions/timeSheetWeek/loc/{locale}.js"
+  }
+}

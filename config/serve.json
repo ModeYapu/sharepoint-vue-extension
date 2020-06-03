@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://rfcomms.sharepoint.cn/sites/RFTHSH-TimeSheet/Lists/Time%20Sheet%20Jan2020%20Week1/AllItems.aspx",
+      "customActions": {
+        "88e2f422-fff8-43c9-8687-924d047401a4": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "This command is always visible."
+          }
+        }
+      }
+    },
+    "timeSheetWeek": {
+      "pageUrl": "https://rfcomms.sharepoint.cn/sites/RFTHSH-TimeSheet/Lists/Time%20Sheet%20Jan2020%20Week1/AllItems.aspx",
+      "customActions": {
+        "88e2f422-fff8-43c9-8687-924d047401a4": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+          }
+        }
+      }
+    }
+  }
+}

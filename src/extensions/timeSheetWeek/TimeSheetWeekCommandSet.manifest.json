@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/command-set-extension-manifest.schema.json",
+
+  "id": "88e2f422-fff8-43c9-8687-924d047401a4",
+  "alias": "TimeSheetWeekCommandSet",
+  "componentType": "Extension",
+  "extensionType": "ListViewCommandSet",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+
+  "items": {
+    "NEW_ITEM": {
+      "title": { "default": "新建项目" },
+      "iconImageUrl": "https://rfcomms.sharepoint.cn/sites/RFTHSH-TimeSheet/SiteAssets/new.png",
+      "type": "command"
+      }
+  }
+}
